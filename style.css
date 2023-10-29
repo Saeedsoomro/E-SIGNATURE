@@ -120,8 +120,7 @@ a{
     background-color: #2366ba;
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
     .relative-left{
         position: absolute;
         top: 0;
@@ -134,7 +133,7 @@ a{
         top: 0;
         right: 0;
         width: 70%;
-        height: 70%;
+        height: 80%;
     }
     .logoContent{
         margin-left: 4px;
@@ -142,45 +141,12 @@ a{
         width: 28%;
      }
     .logoContent h1{
-        font-size: 7px;
+        font-size: 12px;
        
-    }
-    .name h1{
-        font-size: 10px; 
-    }
-    .name h3{
-        font-size: 8px; 
-    }
-    .color_container{
-        margin-right: 5px;
-    }
-    .icon {
-        padding: 6px;
-        margin-right: 4px;
-        width: 2px;
-        height: 2px;
-        text-align: center;
-        font-size: 8px;
-        
-    }
-    .phone-number {
-        font-size: 8px;
-    }
-    .contact-border {
-        font-size: 9px;
-        
-    }
-    .contact-border-container {
-        padding: 4px 0;
-        margin: 2% 2%;
-    }
-    .bg-footer{
-        width: 100%;
-        height: 10%;   
-        
     }
   
 }
+
 @media (max-width: 912px) {
     .relative-left{
         position: absolute;
@@ -240,7 +206,9 @@ a{
     }
   
 }
-@media (max-width: 1200px) {
+
+
+@media (max-width: 500px) {
     .relative-left{
         position: absolute;
         top: 0;
@@ -253,7 +221,7 @@ a{
         top: 0;
         right: 0;
         width: 70%;
-        height: 80%;
+        height: 70%;
     }
     .logoContent{
         margin-left: 4px;
@@ -261,8 +229,42 @@ a{
         width: 28%;
      }
     .logoContent h1{
-        font-size: 12px;
+        font-size: 7px;
        
+    }
+    .name h1{
+        font-size: 10px; 
+    }
+    .name h3{
+        font-size: 8px; 
+    }
+    .color_container{
+        margin-right: 5px;
+    }
+    .icon {
+        padding: 6px;
+        margin-right: 4px;
+        width: 2px;
+        height: 2px;
+        text-align: center;
+        font-size: 8px;
+        
+    }
+    .phone-number {
+        font-size: 8px;
+    }
+    .contact-border {
+        font-size: 9px;
+        
+    }
+    .contact-border-container {
+        padding: 4px 0;
+        margin: 2% 2%;
+    }
+    .bg-footer{
+        width: 100%;
+        height: 10%;   
+        
     }
   
 }
